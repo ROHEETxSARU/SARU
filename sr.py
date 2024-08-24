@@ -1,6 +1,9 @@
 import os, sys
 try:
-    __import__("saru.py").saru()
-except Exception as e:
+def main():
+    print("This is the main function in Main.py")
+
+if __name__ == "__main__":
+    main()
     exit(str(e))
  
