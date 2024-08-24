@@ -1,9 +1,6 @@
 import os, sys
-try:
-def main():
-    print("This is the main function in Main.py")
 
-if __name__ == "__main__":
-    main()
+try:
+    __import__("Main").main()
+except Exception as e:
     exit(str(e))
- 
